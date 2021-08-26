@@ -1,0 +1,14 @@
+.h2 {
+  color: #b7b685;
+}
+.border {
+  border-color: #c4b171 !important;
+  position: relative;
+}
+.ikonka {
+  background-image: url("Twitch-ikonka.png");
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  transform: translateY(-40px);
+}
