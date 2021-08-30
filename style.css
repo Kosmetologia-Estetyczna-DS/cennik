@@ -1,14 +1,51 @@
-.h2 {
-  color: #b7b685;
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Lato&display=swap');
+.category {
+  color: #F9D59F;
+  font-family: Lato;
+  font-size: 24px;
 }
 .border {
-  border-color: #c4b171 !important;
+  border-color: #f9d59f !important;
   position: relative;
+  border-radius: 11px;
 }
-.ikonka {
-  background-image: url("Twitch-ikonka.png");
-  width: 70px;
-  height: 70px;
-  background-size: cover;
-  transform: translateY(-40px);
+.body {
+    font-family:Lato !important ;
+    font-size: 16px;
+    background-size: 100%;
+	  background-repeat: no-repeat;
+    background-color: #0093E9;
+    height: 100%;
+background-color: #2D2C2A;
+color: #f9d59f
+  
+}
+.inside 
+{
+  background-color: #2D2C2A;
+}
+  .place
+ {
+   font-size: 32px;
+   text-align: center;
+ }
+ .name {
+   font-family: Allison;
+   font-size: 180px;
+   text-align: center;
+ }
+ .cena{
+  text-align:right;
+  padding-right: 6vw;
+  margin-bottom: 0;
+  display: inline;
+ }
+ .brackets{
+   font-size: 1rem;
+  margin-top: 6px; 
+  padding-top: 0px;
+}
+.lowBracket{
+  margin-bottom: 6px;
+  padding-bottom: 6px;
 }
