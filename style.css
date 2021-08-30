@@ -3,6 +3,8 @@
   color: #F9D59F;
   font-family: Lato;
   font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .border {
   border-color: #f9d59f !important;
@@ -14,7 +16,6 @@
     font-size: 16px;
     background-size: 100%;
 	  background-repeat: no-repeat;
-    background-color: #0093E9;
     height: 100%;
 background-color: #2D2C2A;
 color: #f9d59f
@@ -48,12 +49,13 @@ color: #f9d59f
 }
 .noWrap {
   white-space: nowrap;
-  
+  text-align: end;  
 }
 
 @media screen and (max-width: 700px){
 .name {
   font-size: 4rem;
+  line-height: 3.5rem;
 }
 .place
 {
@@ -86,5 +88,8 @@ color: #f9d59f
   font-family: Lato;
   font-size: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
+.border-4 {
+  border-width: 2px!important
 }
