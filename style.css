@@ -74,6 +74,12 @@ color: #f9d59f
  margin-bottom: 2px;
  padding-bottom: 2px;
 }
+.category {
+  color: #F9D59F;
+  font-family: Lato;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 450px){
 .uzup1{
@@ -90,6 +96,10 @@ color: #f9d59f
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.border-4 {
-  border-width: 2px!important
+.name {
+  font-size: 4rem;
+  line-height: 3.5rem;
 }
+/* .border-4 {
+  border-width: 2px!important
+} */
