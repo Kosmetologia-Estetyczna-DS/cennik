@@ -26,26 +26,65 @@ color: #f9d59f
 }
   .place
  {
-   font-size: 32px;
+   font-size: 2rem;
    text-align: center;
  }
  .name {
    font-family: Allison;
-   font-size: 180px;
+   font-size: 8rem;
    text-align: center;
- }
- .cena{
-  text-align:right;
-  padding-right: 6vw;
-  margin-bottom: 0;
-  display: inline;
  }
  .brackets{
    font-size: 1rem;
-  margin-top: 6px; 
+  margin-top: 2px; 
   padding-top: 0px;
 }
 .lowBracket{
-  margin-bottom: 6px;
-  padding-bottom: 6px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+.uzup{
+  justify-items: end;
+}
+.noWrap {
+  white-space: nowrap;
+  
+}
+
+@media screen and (max-width: 700px){
+.name {
+  font-size: 4rem;
+}
+.place
+{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.body{
+  font-size: 11px;
+}
+.brackets{
+  font-size: 0.6rem;
+ margin-top: 2px; 
+ padding-top: 0px;
+}
+.lowBracket{
+ margin-bottom: 2px;
+ padding-bottom: 2px;
+}
+}
+@media screen and (max-width: 450px){
+.uzup1{
+  padding-left: 0px;
+}
+.uzup2{
+  padding-left: 0px;
+  padding-right: 20px;
+}
+.category {
+  color: #F9D59F;
+  font-family: Lato;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
 }
